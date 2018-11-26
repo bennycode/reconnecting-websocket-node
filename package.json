@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@types/node": "10.12.10",
+    "@types/ws": "6.0.1",
+    "reconnecting-websocket": "4.1.10",
+    "ws": "6.1.2"
+  },
+  "devDependencies": {
+    "typescript": "3.1.6"
+  },
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "reconnecting-websocket-node",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennyn/reconnecting-websocket-node.git"
+  },
+  "scripts": {
+    "dist": "tsc",
+    "start": "yarn dist && node ./dist/WebSocketClient.js"
+  },
+  "version": "1.0.0"
+}

@@ -1,6 +1,6 @@
 import ReconnectingWebSocket, {Options} from 'reconnecting-websocket';
 import NodeWebSocket = require('ws');
-import * as EventEmitter from "events";
+import {EventEmitter} from 'events';
 
 class WebSocketClient extends EventEmitter {
   connect(): void {
